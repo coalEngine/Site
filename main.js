@@ -1,5 +1,5 @@
 
-import Flower from "./flower.js"
+import Flower from "/flower.js"
 const flower = new Flower
 
 function helloworld(){
