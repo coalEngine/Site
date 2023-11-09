@@ -1,5 +1,5 @@
 html{
-    background: linear-gradient(rgb(41, 109, 255), rgb(206, 239, 255));
+    background: linear-gradient(rgb(41, 109, 255), rgb(173, 226, 253));
     margin: 0;
     width: 100%;
     height: 100%;
@@ -7,51 +7,74 @@ html{
 }
 
 #cloud1{
+    transform: rotateZ(360deg);
+    will-change: left;
     position: relative;
-    animation: move 30s infinite ease-out;
+    left: -100px;
+    animation: move 70s infinite 1s ease-in;
 }
 @keyframes move {
-    from {left: -100px;}
-    to {left: 1900px;}
+   from{transform: translateX(-100px);}
+   to{transform: translateX(2000px);}
 }
 
 #cloud2{
+    transform: rotateZ(360deg);
+    will-change: left;
     position: relative;
     top: 50px;
-    animation: move2 40s infinite ease-out;
+    left: -200px;
+    animation: move2 40s infinite 1s ease-out;
 }
 @keyframes move2 {
-    from {left: -200px;}
-    to {left: 1900px;}
+    from {transform: translateX(-200px);}
+    to {transform: translateX(2000px);}
 }
 
 #cloud3{
+    transform: rotateZ(360deg);
+    will-change: left;
     position: relative;
     top: 200px;
+    left: -260px;
     animation: move3 60s infinite ease-out;
 }
 @keyframes move3 {
-    from {left: -500px;}
-    to {left: 1900px;}
+    from {transform: translateX(-260px);}
+    to {transform: translateX(1980px);}
 }
 
 #cloud4{
+    transform: rotateZ(360deg);
+    will-change: left;
     position: relative;
     top: -50px;
+    left: -360px;
     animation: move4 80s infinite ease-out;
 }
 @keyframes move4 {
-    from {left: -700px;}
-    to {left: 1900px;}
+    from {transform: translateX(-360px);}
+    to {transform: translateX(1770px);}
 }
 
 #cloud5{
+    transform: rotateZ(360deg);
+    will-change: left;
     position: relative;
+    left: -360px;
     top: -150px;
     animation: move5 50s infinite ease-out;
 }
 @keyframes move5 {
-    from {left: -900px;}
-    to {left: 1900px;}
+    from {transform: translateX(-500px);}
+    to {transform: translateX(1600px);}
 }
 
+#cloud6{
+    transform: rotateZ(360deg);
+    will-change: left;
+    position: relative;
+    left: -582px;
+    top: 90px;
+    animation: move5 32s infinite ease-out;
+}
