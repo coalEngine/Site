@@ -14,15 +14,12 @@ body{
 }
 
 img{
-    max-width: 100%;
-    height: auto;
-    width: auto\9; 
 }
 
 #fore{
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: 65px;
 }
 
 
@@ -31,12 +28,14 @@ img{
     left: 0px;
     top: 0px;
     max-width: 100%;
+    height: auto;
+    width: auto\9;
 }
 
 #back2{
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: 65px;
 }
 
 #line{
