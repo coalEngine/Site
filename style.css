@@ -27,6 +27,9 @@ body{
     margin: 0;
     height: 100dvh;
     width: 100dvw;
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
 
 #con{
