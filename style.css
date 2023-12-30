@@ -41,18 +41,19 @@ body{
 }
 
 #yo{
-    position: relative;
-    left: 200px;
+    position: absolute;
+    left: 0px;
+    top: 100px;
 }
 
 #yo2{
-    position: relative;
-    left: 300px;
-    top: 0px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
 }
 
 #island{
-    position: relative;
+    position: absolute;
     right: 100vh;
     top: 45vh;
 }
@@ -65,7 +66,7 @@ body{
 }
 
 #back2{
-    position: absolute;
+    position: relative;
     left: 0px;
     top: 65px;
 }
@@ -80,7 +81,7 @@ body{
 #cloud1{
     transform: rotateZ(360deg);
     will-change: left;
-    position: relative;
+    position: absolute;
     left: -100px;
     top: 300px;
     animation: move 70s infinite 1s ease-in;
@@ -112,7 +113,7 @@ body{
 #cloud3{
     transform: rotateZ(360deg);
     will-change: left;
-    position: relative;
+    position: absolute;
     top: 200px;
     left: -260px;
     animation: move3 60s infinite ease-out;
@@ -128,7 +129,7 @@ body{
 #cloud4{
     transform: rotateZ(360deg);
     will-change: left;
-    position: relative;
+    position: absolute;
     top: -50px;
     left: -360px;
     animation: move4 80s infinite ease-out;
@@ -144,9 +145,9 @@ body{
 #cloud5{
     transform: rotateZ(360deg);
     will-change: left;
-    position: relative;
+    position: absolute;
     left: -360px;
-    top: -150px;
+    top: -100px;
     animation: move5 50s infinite ease-out;
     max-width: 100%;
     height: auto;
@@ -165,7 +166,7 @@ body{
 #cloud6{
     transform: rotateZ(360deg);
     will-change: left;
-    position: relative;
+    position: absolute;
     left: -582px;
     top: 90px;
     animation: move6 32s infinite ease-out;
@@ -176,7 +177,7 @@ body{
 
 #cloud7{
     transform: rotateZ(360deg);
-    position: relative;
+    position: absolute;
     left:-800px;
     animation: move6 48s infinite ease-out;
     max-width: 100%;
