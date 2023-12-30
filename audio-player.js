@@ -428,7 +428,7 @@
               <span class="current-time">0:0</span>
               <input type="range" max="100" value="0" class="progress-bar">
               <span class="duration">0:00</span>
-              <canvas class="visualizer" style="width: 20%; height: 20px; left: 40%;"></canvas>
+              <canvas class="visualizer" style="width: 20%; height: 20px; left: 41%;"></canvas>
           </div>
           <div class="volume-bar">
               <input type="range" min="0" max="2" step="0.01" value="${this.volume}" class="volume-field">
