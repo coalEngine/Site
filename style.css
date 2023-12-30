@@ -52,6 +52,24 @@ body{
     top: 400px;
 }
 
+#yo3{
+    position: absolute;
+    left: 500px;
+    top: 800px;
+}
+
+#yo4{
+    position: absolute;
+    left: 1600px;
+    top: 20px;
+}
+
+#yo5{
+    position: absolute;
+    left: 1600px;
+    top: 700px;
+}
+
 #island{
     position: absolute;
     right: 100vh;
