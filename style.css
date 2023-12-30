@@ -42,14 +42,14 @@ body{
 
 #yo{
     position: absolute;
-    left: 0px;
-    top: 100px;
+    left: 900px;
+    top: 180px;
 }
 
 #yo2{
     position: absolute;
     left: 100px;
-    top: 100px;
+    top: 400px;
 }
 
 #island{
