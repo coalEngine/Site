@@ -21,6 +21,21 @@ audio {
     background-color: rgba(0, 0, 0, 0.712);
 }
 
+button{
+    background-color: rgba(28, 32, 32, 0.822);
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu{
+    padding: 0; 
+    position: absolute;
+    display: grid;
+    top: 5%;
+    left: 10%;
+    border: 20px solid rgba(36, 35, 35, 0.39);
+
+}
 
 body{
     position:relative;
@@ -30,6 +45,11 @@ body{
     display: flex;
     align-items: center;
     margin: 0;
+}
+
+li{
+    position: absolute;
+    top: 0;
 }
 
 #con{

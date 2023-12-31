@@ -1,3 +1,35 @@
+var song_new = ""
+var src = ""
+var player = document.getElementById("PLAYER")
+function get_id(id){
+  switch(id){
+    case "a1":
+      song_new = "Blueberries"
+      src = "Viktor Kraus - Blueberries - Copy.mp3"
+      break;
+    case "a2":
+      song_new = "Endless Possibility - Dream Kittu"
+      src = "ENDLESS POSSIBILITY (Sonic Unleashed)  PianoVocal CoverDream Kittu.mp3"
+      break;
+    case "a3":
+        song_new = "Tick Tock - Joji"
+        src = "Tick Tock.mp3"
+        break;
+    case "a4":
+        song_new = "Kingdom Hearts 2 - Dearly Beloved"
+        src = "Kingdom Hearts 2 - Dearly Beloved II.mp3"
+        break;
+  }
+  change_song(song_new, src)
+}
+
+function change_song(NAME, SRC){
+  player.audio.src = SRC
+  player.title = NAME
+  player.playing = false
+  player.playPauseBtn.classList.remove('playing')
+}
+
 {
   class AudioPlayer extends HTMLElement {
     playing = false;
@@ -72,6 +104,7 @@
       } else {
         this.audio.removeAttribute(name);
       }
+      
     }
     
     initializeAudio() {
