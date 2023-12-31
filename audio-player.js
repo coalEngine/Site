@@ -19,6 +19,10 @@ function get_id(id){
         song_new = "Kingdom Hearts 2 - Dearly Beloved"
         src = "Kingdom Hearts 2 - Dearly Beloved II.mp3"
         break;
+    case "a5":
+        song_new = "Vandalize - ONE OK ROCK"
+        src = "Sonic Frontiers & ONE OK ROCK - _Vandalize_ Music Video.mp3"
+        break;
   }
   change_song(song_new, src)
 }
